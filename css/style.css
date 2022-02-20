@@ -1,0 +1,195 @@
+@import "null.css";
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+body {
+	font-family: "Lato";
+}
+
+.continer {
+	max-width: 100%;
+	min-height: 100%;
+	overflow: hidden;
+}
+
+.intro {
+	max-width: 810px;
+	min-height: 100%;
+	margin: 0 auto;
+}
+
+.intro h1 {
+	font-family: "Lato";
+	font-size: 46px;
+	font-weight: 900;
+	margin: 40px 0 30px 0;
+}
+
+.icon {
+	max-width: 810px;
+	display: inline-block;
+	font-size: 16px;
+	color: rgb(117, 117, 117);
+	margin: 0 0 30px 0;
+}
+.icon span {
+	background: url(../img/vector.svg) no-repeat;
+	min-height: 16px;
+	padding: 0 0 0 20px;
+	margin: 0 20px 0 0;
+}
+
+.icon p {
+	display: inline-block;
+	min-height: 16px;
+	background: url(../img/Union.svg) no-repeat;
+	padding: 0 0 0 20px;
+}
+
+.icon p + p {
+	background: #fff;
+}
+
+.icon p + p::after {
+	content: "";
+	width: 85px;
+	min-height: 20px;
+	display: inline-block;
+	background: url("../img/socials.svg") 0px 0px no-repeat;
+	margin: 0px 0px 0px 5px;
+}
+
+picture {
+	display: block;
+	margin: 0 0 50px 0;
+}
+
+.text {
+	font-weight: 700;
+	font-size: 20px;
+}
+
+.main {
+	max-width: 810px;
+	margin: 0 auto;
+}
+
+.text {
+	font-size: 20px;
+	font-weight: 700;
+	margin: 0 0 25px 0;
+}
+
+.text-two {
+	margin: 0 0 40px 0;
+}
+
+.text-two > *:last-child {
+	margin-bottom: 0;
+}
+
+.text-two p {
+	margin: 0 0 25px 0;
+}
+
+.text-free {
+	margin: 0 0 40px 0;
+}
+
+.text-free p {
+	display: inline-block;
+	font-size: 20px;
+	font-weight: 700;
+	min-height: 22px;
+	background: url(../img/braces.svg) left top / 25px no-repeat;
+	padding: 0 0 0 60px;
+}
+
+.text-fo {
+	margin: 0 0 30px 0;
+}
+
+.spisol {
+	margin: 0 0 20px 0;
+}
+
+.spisol li {
+	background: url(../img/check.svg) 0 0 no-repeat;
+	min-height: 20px;
+	padding: 0 0 15px 32px;
+}
+
+.footer {
+	max-width: 810px;
+	margin: 0 auto;
+}
+.footer p {
+	margin: 0 0 60px 0;
+}
+
+.end {
+	font-family: "Lato";
+	max-width: 810px;
+	margin: 0 auto;
+}
+
+.end p {
+	font-weight: 700;
+	text-align: right;
+}
+.end p::after {
+	content: "";
+
+	width: 85px;
+	min-height: 20px;
+	display: inline-block;
+	background: url("../img/socials.svg") 0px 0px no-repeat;
+	margin: 0px 0px 0px 5px;
+}
+
+.next {
+	max-width: 100%;
+	min-height: 100%;
+	margin: 40px 0 70px 0;
+	text-align: center;
+}
+
+.next a {
+	text-align: center;
+	padding: 10px;
+	font-size: 25px;
+	background: fuchsia;
+	border-radius: 15px;
+	color: azure;
+}
+
+.next a:hover {
+	font-size: 25px;
+	background: rgb(162, 0, 255);
+	border-radius: 15px;
+	color: azure;
+	text-align: center;
+	text-transform: uppercase;
+}
